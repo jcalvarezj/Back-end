@@ -1,10 +1,14 @@
-# Cuarto de Milla - API
+# Cuarto de Milla
 
-## Pagination
+This is the Cuarto de Milla application's Backend, containing a Django API and an ETL module for feeding the database with current data from [Datos Abiertos de Mexico](https://datos.gob.mx/)
+
+## Cuarto de Milla - API
+
+### Pagination
 
 The api provides a pagination system for make querys. 
 
-### Query:
+#### Query:
 ```
 {
   allStations(first:2, after: "YXJyYXljb25uZWN0aW9uOjE=" ){
@@ -26,7 +30,7 @@ The api provides a pagination system for make querys.
 }
 
 ```
-### Response
+#### Response
 
 ```
 {
@@ -60,5 +64,5 @@ The api provides a pagination system for make querys.
 
 ```
 
-### More Information:
+#### More Information:
 See the documentation [here](https://github.com/graphql-python/graphene/wiki/Relay-Pagination-example)
