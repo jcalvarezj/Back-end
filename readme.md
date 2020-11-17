@@ -1,6 +1,6 @@
 # Cuarto de Milla
 
-This is the Cuarto de Milla application's Backend, containing a Django API and an ETL module for feeding the database with current data from [Datos Abiertos de Mexico](https://datos.gob.mx/)
+This is the Cuarto de Milla application's Backend, containing a Django API and an [ETL module](etl) for feeding the database with current data from [Datos Abiertos de Mexico](https://datos.gob.mx/)
 
 ## Cuarto de Milla - API
 
